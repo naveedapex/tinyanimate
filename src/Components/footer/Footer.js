@@ -1,9 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles'
 import footer from './Footer.module.css'
-import fb from '../image/fb.jpg'
-import git from '../image/git.png'
-import Linked from '../image/in.png'
 
 
 

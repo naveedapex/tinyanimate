@@ -1,13 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
-import { Drawer, AppBar, Toolbar, CssBaseline, List, Typography, IconButton, ListItem, ListItemIcon, ListItemText } from '@material-ui/core';
-import Divider from '@material-ui/core/Divider';
-import MenuIcon from '@material-ui/icons/Menu';
-import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import { Home } from '@material-ui/icons/';
-import InfoIcon from '@material-ui/icons/Info';
+import { AppBar, Toolbar, CssBaseline, Typography } from '@material-ui/core';
 
 const drawerWidth = 240;
 
@@ -62,16 +56,9 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Navbar() {
   const classes = useStyles();
-  const theme = useTheme();
   const [open, setOpen] = React.useState(false);
 
-  const handleDrawerOpen = () => {
-    setOpen(true);
-  };
 
-  const handleDrawerClose = () => {
-    setOpen(false);
-  };
 
   return (
     <div className={classes.root}>

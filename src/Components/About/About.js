@@ -3,7 +3,6 @@ import { makeStyles , Container } from '@material-ui/core';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Grid from '@material-ui/core/Grid';
 
-import About from '../image/About.png'
 import abouts from '../image/about.svg'
 
 
@@ -11,7 +10,6 @@ import about from './About.module.css';
 
 
 
-//import useWebAnimations, {rollIn} from "@wellyshen/use-web-animations";
 
 
 const useStyles = makeStyles((theme) => ({

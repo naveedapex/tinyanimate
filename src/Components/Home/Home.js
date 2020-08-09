@@ -2,8 +2,6 @@ import React from 'react';
 import { makeStyles , Container , Button ,Box} from '@material-ui/core';
 
 import Grid from '@material-ui/core/Grid';
-import intro from '../image/Intro.svg'
-import Brain from '../image/Brain.svg'
 import intro1 from '../image/intro1.jpg'
 import ScrollAnimation from 'react-animate-on-scroll';
 

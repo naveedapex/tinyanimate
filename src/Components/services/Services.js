@@ -2,8 +2,6 @@ import React from 'react';
 import { makeStyles , Container } from '@material-ui/core';
 
 import Grid from '@material-ui/core/Grid';
-import services1 from '../image/services1.svg'
-import services2 from '../image/services2.svg'
 import services3 from '../image/services3.svg'
 import ScrollAnimation from 'react-animate-on-scroll';
 import ux from '../image/ux.jpg'
