@@ -1,6 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import { AppBar, Toolbar, CssBaseline, Typography } from '@material-ui/core';
 
 const drawerWidth = 240;
@@ -56,7 +56,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Navbar() {
   const classes = useStyles();
-  const [open, setOpen] = React.useState(false);
+  const [open] = React.useState(false);
 
 
 
