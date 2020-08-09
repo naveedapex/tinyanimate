@@ -1,0 +1,20 @@
+.container {
+    background: linear-gradient(to right,#8b8d15, #f1eef0 );
+}
+
+.content{
+ color: white;
+ text-align: center;
+}
+
+.head{
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.para{
+    color: white;
+    font-weight: 300;
+    margin-top: 30px;
+    font-size: 15px;
+}

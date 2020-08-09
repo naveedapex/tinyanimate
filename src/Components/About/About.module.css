@@ -1,0 +1,44 @@
+.container {
+    background: linear-gradient(to right,#8b8d15, #f1eef0 );
+}
+
+.content{
+ color: white;
+ text-align: center;
+}
+
+.head{
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+    text-shadow: 5px 10px #15308d;
+}
+.para{
+    color: white;
+    font-weight: 300;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.img{
+    margin-top: 35px;
+    width: 150px;
+    
+}
+
+
+
+
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(-90deg);
+    }
+    to {
+      transform: rotate(90deg);
+    }
+  }
+  
+  

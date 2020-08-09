@@ -1,0 +1,16 @@
+.Container{
+    background-color:#8b8d15;
+    color: white;
+    height: 250px;
+}
+
+.image{
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+}
+
+.foot{
+    color: white;
+    margin-top: 50px;
+}
