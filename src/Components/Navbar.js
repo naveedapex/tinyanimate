@@ -71,7 +71,7 @@ export default function Navbar() {
       >
         <Toolbar>
           <Typography variant="h6" noWrap className={classes.title}>
-            Web Animation
+            WAAPI Animation
           </Typography>
           
         </Toolbar>
